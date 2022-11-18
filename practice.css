@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(244, 244, 204);
+}
+h1{
+    color:blue;
+    text-decoration: solid;
+}
+
+input{
+    height: 30px;
+    width:250px;
+    font-weight: bold;
+}
+input:hover{
+    border-color:blue;
+}
+#addbtn{
+    height:40px;
+    width: 90px;
+}
+#addbtn:hover{
+    cursor: pointer;
+}
+
+#displaydiv{
+    position: relative;
+    right:20px;
+    height: 30px;
+    width: 350px;
+    border:2px solid red;
+    background-color: rgb(128, 234, 190);
+    border-radius: 6px;
+    display: none;
+}
+.delete{
+    position: relative;
+    bottom: 20px;
+    height: 30px;
+    width:30px;
+    border-radius: 8px;
+    background-color: rgb(235, 94, 94);
+    border:0px;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.up{
+    position: relative;
+    bottom: 19px;
+    height: 30px;
+    width:30px;
+    border-radius: 8px;
+    background-color: rgb(140, 186, 240);
+    border:0px;
+}
+.up:hover{
+    cursor: pointer;
+}
+.down{
+    position: relative;
+    bottom: 19px;
+    height: 30px;
+    width:30px;
+    border-radius: 8px;
+    background-color: rgb(239, 196, 118);
+    border:0px;
+}
+.down:hover{
+    cursor: pointer;
+}
+.btndiv{
+    position:relative;
+    right:125px;
+}
+
+span{
+    position: relative;
+    bottom: 23px;
+    right:60px;
+}
+
+li{
+    position: relative;
+    right:20px;
+    height: 30px;
+    width: 350px;
+    
+    background-color: rgb(128, 234, 190);
+    border-radius: 6px;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
